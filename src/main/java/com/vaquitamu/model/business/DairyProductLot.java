@@ -1,15 +1,31 @@
-package co.edu.uptc.model.business;
+package com.vaquitamu.model.business;
 
 import java.util.Date;
 
-public abstract class DairyProduct {
+/**
+ * Dairy Products share some properties.
+ * Some of the children classes must be share its own
+ * properties, but it's just a simulation so it tries
+ * to be 'realistic'. Each Dairy Product lot contains:
+ * an id, a name , an expiration date and the amount of
+ * units in the Lot. Also, it has some abstract methods
+ * that each finish Product implements.
+ */
+public abstract class DairyProductLot {
     private String id;
     private String name;
     private Date expirationDate;
     private double calories;
     private Integer units;
 
-    public DairyProduct(String id, String name, Date expirationDate, Integer units) {
+    /**
+     *
+     * @param id
+     * @param name name of the product
+     * @param expirationDate Date when it will be expirate
+     * @param units units that compose the lot.
+     */
+    public DairyProductLot(String id, String name, Date expirationDate, Integer units) {
         this.id = id;
         this.name = name;
         this.expirationDate = expirationDate;
@@ -18,6 +34,7 @@ public abstract class DairyProduct {
     }
 
     public abstract void calcCalories();
+    public abstract String show();
 
     public String getId() {
         return id;
@@ -52,10 +69,12 @@ public abstract class DairyProduct {
     }
 
     public Integer getUnits() {
+
         return units;
     }
 
     public void setUnits(Integer units) {
         this.units = units;
     }
+
 }

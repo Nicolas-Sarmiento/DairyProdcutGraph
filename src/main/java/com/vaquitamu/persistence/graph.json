@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {"id": "Tunja"},
+    {"id":  "Villa de Leyva"},
+    {"id":  "Barbosa"},
+    {"id":  "Chiquinquirá"},
+    {"id":  "Ventaquemada"},
+    {"id":  "Siachoque"},
+    {"id":  "Toca"},
+    {"id":  "Tuta"},
+    {"id":  "Sotaquirá"},
+    {"id":  "Paipa"},
+    {"id":  "Duitama"},
+    {"id":  "Sogamoso"},
+    {"id":  "Nobsa"},
+    {"id":  "Iza"},
+    {"id":  "Firavitoba"},
+    {"id":  "Belén"}
+  ],
+  "edges": [
+    { "source":  "Tunja", "target": "Barbosa", "id": "1","name": "Tunja-Barbosa","distance": 73.1,"tollbars": 1, "condition": 1},
+    { "source":  "Tunja", "target": "Villa de Leyva", "id": "2","name": "Tunja-VillaLeyva","distance": 38.2,"tollbars": 1, "condition": 2},
+    { "source":  "Tunja", "target": "Chiquinquirá", "id": "3","name": "Tunja-Chiquinquirá","distance": 77.2,"tollbars": 1, "condition": 2},
+    { "source":  "Tunja", "target": "Ventaquemada", "id": "4","name": "Tunja-Ventaquemada","distance": 32.3,"tollbars": 0, "condition": 3},
+    { "source":  "Tunja", "target": "Ventaquemada", "id": "5","name": "Tunja-Ventaquemada alterna","distance": 28,"tollbars": 1, "condition": 2},
+    { "source":  "Tunja", "target": "Siachoque", "id": "6","name": "Tunja-Siachoque","distance": 22.3,"tollbars": 1, "condition": 2},
+    { "source":  "Tunja", "target": "Toca", "id": "7","name": "Tunja-Toca","distance": 21.0,"tollbars": 1, "condition": 3},
+    { "source":  "Chiquinquirá", "target": "Barbosa", "id": "8","name": "Chiquinquirá-Barbosa","distance": 53.9,"tollbars": 2, "condition": 3},
+    { "source":  "Chiquinquirá", "target": "Villa de Leyva", "id": "9","name": "Chiquinquirá-VillaLeyva","distance": 45.5,"tollbars": 1, "condition": 2},
+    { "source":  "Toca", "target": "Siachoque", "id": "10","name": "Toca-Siachoque","distance": 10.0,"tollbars": 0, "condition": 3},
+    { "source":  "Tunja", "target": "Sotaquirá", "id": "11","name": "Tunja-Sotaquirá","distance": 36.9,"tollbars": 1, "condition": 1},
+    { "source":  "Tunja", "target": "Tuta", "id": "12","name": "Tunja-Tuta","distance": 24.6,"tollbars": 0, "condition":3},
+    { "source":  "Paipa", "target": "Sotaquirá", "id": "13","name": "Paipa-Sotaquirá","distance": 57.9,"tollbars": 1, "condition":1},
+    { "source":  "Paipa", "target": "Tuta", "id": "14","name": "Paipa-Tuta","distance": 55.1,"tollbars": 1, "condition":1},
+    { "source":  "Duitama", "target": "Paipa", "id": "15","name": "Duitama-Paipa","distance": 55.1,"tollbars": 0, "condition":1},
+    { "source":  "Duitama", "target": "Paipa", "id": "16","name": "Duitama-Paipa alterna","distance": 45.0,"tollbars": 0, "condition":3},
+    { "source":  "Duitama", "target": "Sogamoso", "id": "17","name": "Duitama-Sogamoso","distance": 20.0,"tollbars": 0, "condition":1},
+    { "source":  "Duitama", "target": "Nobsa", "id": "18","name": "Duitama-Nobsa","distance": 17.7,"tollbars": 0, "condition":2},
+    { "source":  "Duitama", "target": "Belén", "id": "19","name": "Duitama-Belén","distance": 28.5,"tollbars": 0, "condition":3},
+    { "source":  "Sogamoso", "target": "Nobsa", "id": "20","name": "Sogamoso-Nobsa","distance":2.8 ,"tollbars": 0, "condition":1},
+    { "source":  "Sogamoso", "target": "Iza", "id": "21","name": "Sogamoso-Iza","distance":8 ,"tollbars": 0, "condition":2},
+    { "source":  "Sogamoso", "target": "Iza", "id": "22","name": "Sogamoso-Iza alterna","distance":6.8 ,"tollbars": 0, "condition":3},
+    { "source":  "Sogamoso", "target": "Firavitoba", "id": "23","name": "Sogamoso-Fira","distance":7.9 ,"tollbars": 0, "condition":2},
+    { "source":  "Sogamoso", "target": "Belén", "id": "24","name": "Sogamoso-Belén","distance":5.6 ,"tollbars": 0, "condition":2},
+    { "source":  "Firavitoba", "target": "Iza", "id": "24","name": "Fira-Iza","distance":4.5 ,"tollbars": 0, "condition":2}
+
+  ]
+}
